@@ -1,13 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
+:root{
+    --cor-01: #FDE2F3;
+    --cor-02: #2A2F4F;
+    --cor-03: #9b75e2;
+    --cor-hover: #E5BEEC;
+
+    --font-primaria: 'Krona One', sans-serif;
+    --font-secundaria: 'Montserrat', sans-serif;
+}   
 *{
     padding: 0;
     margin: 0;
 }
 body{
     box-sizing: border-box;
-    background-color: black;
-    color: white;
+    background-color: var(--cor-02);
+    color: var(--cor-01);
 }
 .cabecalho{
     padding: 2% 0 0 15%;
@@ -17,14 +26,14 @@ body{
     gap: 80px;
 }
 .cabecalho-menu-link{
-    font-family:'Montserrat', sans-serif;
+    font-family:var(--font-secundaria);
     font-size: 24px;
     font-weight: 600;
     text-decoration: none;
-    color: #22D4FD;
+    color: var(--cor-03);
 }
 .apresentacao{
-    padding: 5% 15%;
+    padding: 5% 10%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -37,17 +46,17 @@ body{
 }
 .apresentacao-conteudo-titulo{
     font-size: 36px;
-    font-family: 'Krona One', sans-serif;
+    font-family: var(--font-primaria);
 }
 .titulo-destaque{
-    color: #22D4FD;
+    color: var(--cor-03);
 }
-.apresentacao-conteudo--texto{
+.apresentacao-conteudo-texto{
     font-size: 24px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font-secundaria);
 }
 .apresentacao-subtitulo{
-    font-family: 'Krona One', sans-serif;
+    font-family: var(--font-primaria);
     font-weight: 400;
     font-size: 24px;
 }
@@ -66,15 +75,16 @@ body{
     text-align: center;
     border-radius: 8px;
     font-size: 24px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font-secundaria);
     font-weight: 600;
     padding: 15px 0;
     text-decoration: none;
-    color: #F6F6F6;
-    border: 2px solid #22D4FD;
+    color:  var(--cor-01);
+    border: 2px solid var(--cor-03);
 }
 .apresentacao-botao:hover{
-    background-color: #272727;
+    background-color: var(--cor-hover);
+    color: var(--cor-02);
 }
 .apresentacao-botao-logo{
     width: 18px;
@@ -84,18 +94,32 @@ img{
     width: 35%;
     height: 35%;
     border-radius: 10px;
-    border: 3px #22D4FD inset;
+    border: 3px var(--cor-03) inset;
 }
 .rodape{
-    background-color: #22D4FD;
-    color: #000000;
+    background-color: var(--cor-03);
+    color: var(--cor-02);
     padding: 24px;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font-secundaria);
     font-size: 24px;
     font-weight: 400;
 }
 .apresentacao-conteudo-texto a{
     text-decoration: none;
-    color: #22D4FD;
+    color: var(--cor-03);
+}
+.download-curriculo a{
+    text-decoration: none;
+    font-family: var(--font-secundaria);
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--cor-02);
+    background-color: var(--cor-03);
+    border-radius: 8px;
+    padding: 15px 2px;
+}
+.download-curriculo a:hover{
+    background-color: var(--cor-hover);
+    color: var(--cor-02)
 }
