@@ -27,7 +27,7 @@ body{
 }
 .cabecalho-menu-link{
     font-family:var(--font-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     text-decoration: none;
     color: var(--cor-03);
@@ -39,26 +39,26 @@ body{
     justify-content: space-between;
 }
 .apresentacao-conteudo{
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
 .apresentacao-conteudo-titulo{
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family: var(--font-primaria);
 }
 .titulo-destaque{
     color: var(--cor-03);
 }
 .apresentacao-conteudo-texto{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: var(--font-secundaria);
 }
 .apresentacao-subtitulo{
     font-family: var(--font-primaria);
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 .apresentacao-link{
     display: flex;
@@ -71,16 +71,19 @@ body{
     display: flex;
     justify-content: center;
     gap: 16px;
-    width: 378px;
+    width: 50%;
     text-align: center;
     border-radius: 8px;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: var(--font-secundaria);
     font-weight: 600;
     padding: 15px 0;
     text-decoration: none;
     color:  var(--cor-01);
     border: 2px solid var(--cor-03);
+}
+.apresentacao-botao img{
+    margin: 0;
 }
 .apresentacao-botao:hover{
     background-color: var(--cor-hover);
@@ -92,7 +95,6 @@ body{
 }
 img{
     width: 35%;
-    height: 35%;
     border-radius: 10px;
     border: 3px var(--cor-03) inset;
 }
@@ -102,7 +104,7 @@ img{
     padding: 24px;
     text-align: center;
     font-family: var(--font-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
 }
 .apresentacao-conteudo-texto a{
@@ -112,7 +114,7 @@ img{
 .download-curriculo a{
     text-decoration: none;
     font-family: var(--font-secundaria);
-    font-size: 18px;
+    font-size: 1.2rem;
     font-weight: 400;
     color: var(--cor-02);
     background-color: var(--cor-03);

@@ -1,0 +1,26 @@
+@media (max-width: 1000px) {
+    
+    .cabecalho{
+        padding: 10%
+    }
+    .cabecalho-menu{
+        justify-content: center;
+    }
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+    .apresentacao-conteudo{
+        width: auto;
+    }
+    .apresentacao-botao{
+        padding: auto;
+    }
+    .download-curriculo{
+        margin-bottom:15% ;
+    }
+    img{
+        margin-bottom: 15%;
+    }
+    
+}
