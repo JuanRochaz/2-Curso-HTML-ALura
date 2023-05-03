@@ -24,3 +24,18 @@
     }
     
 }
+@media (max-width: 420px){
+    .cabecalho-menu{
+        padding: 0%;
+        gap: 40px;
+    }
+}
+@media (max-width: 320px){
+    .cabecalho-menu{
+        padding: 0%;
+        gap: 15px;
+    }
+    .apresentacao-botao{
+        font-size: 1.0em;
+    }
+}
